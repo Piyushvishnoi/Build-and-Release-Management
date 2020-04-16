@@ -9,8 +9,8 @@ public class newone {
 	public static void main(String[] args) {
 		System.setProperty("webdriver.chrome.driver","/Users/piyushvishnoi/Desktop/chromedriver/chromedriver");
 		WebDriver driver=new ChromeDriver();
-		driver.get("file:///Users/piyushvishnoi/Desktop/jsexercisefiles/radio.html");
-		driver.findElement(By.xpath("//input[@value='orange']")).click();
+		driver.get("file:///Users/piyushvishnoi/Desktop/jsexercisefiles/radio.html"); //to access html file in personal system
+		driver.findElement(By.xpath("//input[@value='orange']")).click();  //to click radio button
 
 	}
 
