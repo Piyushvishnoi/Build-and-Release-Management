@@ -12,6 +12,6 @@ WebDriver driver=new ChromeDriver();
 driver.navigate().to("https://www.google.co.in");
 driver.findElement(By.name("q")).sendKeys("Devops");
 driver.findElement(By.name("btnK")).click();
-	}
+	} 
 
 }
